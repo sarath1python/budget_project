@@ -30,10 +30,10 @@ jobs:
           name: create virtual environment
           command: virtualenv myvirtualenv --python=python3
       - run:
-        name: activate virtual environment
-        command: source /home/circleci/repo/myvirtualenv/bin/activate
+          name: activate virtual environment
+          command: source /home/circleci/repo/myvirtualenv/bin/activate
 
-      - run :
+      - run:
           name : install dependencies
           command:
             pip install -r requirements.txt
