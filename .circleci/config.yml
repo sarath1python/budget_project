@@ -30,7 +30,7 @@ jobs:
           name: install dependencies
           command: |
             virtualenv myvirtualenv --python=python3
-            source . myvirtualenv/bin/activate
+            source /home/circleci/repo/myvirtualenv/bin/activate
             pip install -r requirements.txt
 
       - save_cache:
