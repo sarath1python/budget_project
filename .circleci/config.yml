@@ -31,7 +31,6 @@ jobs:
           command: |
             virtualenv myvirtualenv --python=python3
             source /home/circleci/repo/myvirtualenv/bin/activate
-
       - run :
           name : install dependencies
           command:
