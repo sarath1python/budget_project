@@ -31,7 +31,7 @@ jobs:
           command: |
             virtualenv myvirtualenv --python=python3
             source /home/circleci/repo/myvirtualenv/bin/activate
-            pip install -r requirements.txt
+      - run: pip install -r requirements.txt
 
       - save_cache:
           paths:
