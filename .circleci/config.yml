@@ -27,10 +27,13 @@ jobs:
               pip install virtualenv
               pip install --upgrade pip --user
       - run:
-          name: create and activate virtual environment
+          name: create virtual environment
           command: |
             virtualenv myvirtualenv --python=python3
-            source /home/circleci/repo/myvirtualenv/bin/activate
+      -run:
+        name: activate virtual environment
+        command: source /home/circleci/repo/myvirtualenv/bin/activate
+
       - run :
           name : install dependencies
           command:
@@ -38,7 +41,7 @@ jobs:
 
       - save_cache:
           paths:
-            - ./venv
+            - /home/circleci/repo/myvirtualenv
           key: v1-dependencies-{{ checksum "requirements.txt" }}
 
       # run tests!
