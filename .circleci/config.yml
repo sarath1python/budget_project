@@ -24,8 +24,8 @@ jobs:
             - v1-dependencies-
       - run:
           command : |
-          pip install virtualenv
-          pip install --upgrade pip --user
+              pip install virtualenv
+              pip install --upgrade pip --user
       - run:
           name: install dependencies
           command: |
