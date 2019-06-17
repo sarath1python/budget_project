@@ -6,8 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4256e017-98a1-4f8d-8045-e3434f8a9690" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-309">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="447">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,6 +65,7 @@
         <option value="$PROJECT_DIR$/budgetproject/settings.py" />
         <option value="$PROJECT_DIR$/budget/orm.py" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -182,6 +182,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="27" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -190,7 +191,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29154518" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29154518" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -564,6 +565,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-309">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1560746655260" expanded="true" signature="12:1340" ph="jobs: &lt;1 key&gt;" />
+            <marker date="1560746655260" expanded="true" signature="20:1340" ph="build: &lt;3 keys&gt;" />
+            <marker date="1560746655260" expanded="true" signature="31:76" ph="docker: &lt;1 item&gt;" />
+            <marker date="1560746655260" expanded="true" signature="55:76" ph="circleci/…thon:3.6.7" />
+            <marker date="1560746655260" expanded="true" signature="322:328" ph="~/repo" />
+            <marker date="1560746655260" expanded="true" signature="334:1340" ph="steps: &lt;6 items&gt;" />
+            <marker date="1560746655260" expanded="true" signature="349:357" ph="checkout" />
+            <marker date="1560746655260" expanded="true" signature="407:608" ph="restore_cache: &lt;1 key&gt;" />
+            <marker date="1560746655260" expanded="true" signature="432:608" ph="keys: &lt;2 items&gt;" />
+            <marker date="1560746655260" expanded="true" signature="452:501" ph="v1-depend…ts.txt&quot; }}" />
+            <marker date="1560746655260" expanded="true" signature="592:608" ph="v1-dependencies-" />
+            <marker date="1560746655260" expanded="true" signature="618:789" ph="run: &lt;2 keys&gt;" />
+            <marker date="1560746655260" expanded="true" signature="639:659" ph="install dependencies" />
+            <marker date="1560746655260" expanded="true" signature="679:789" ph="python3 -…ments.txt&#10;" />
+            <marker date="1560746655260" expanded="true" signature="799:913" ph="save_cache: &lt;2 keys&gt;" />
+            <marker date="1560746655260" expanded="true" signature="821:848" ph="paths: &lt;1 item&gt;" />
+            <marker date="1560746655260" expanded="true" signature="842:848" ph="./venv" />
+            <marker date="1560746655260" expanded="true" signature="864:913" ph="v1-depend…ts.txt&quot; }}" />
+            <marker date="1560746655260" expanded="true" signature="1132:1249" ph="run: &lt;2 keys&gt;" />
+            <marker date="1560746655260" expanded="true" signature="1153:1162" ph="run tests" />
+            <marker date="1560746655260" expanded="true" signature="1182:1249" ph=". venv/bi…e.py test&#10;" />
+            <marker date="1560746655260" expanded="true" signature="1259:1340" ph="store_artifacts: &lt;2 keys&gt;" />
+            <marker date="1560746655260" expanded="true" signature="1292:1304" ph="test-reports" />
+            <marker date="1560746655260" expanded="true" signature="1328:1340" ph="test-reports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
