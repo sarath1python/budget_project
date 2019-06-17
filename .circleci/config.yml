@@ -28,9 +28,8 @@ jobs:
               pip install --upgrade pip --user
       - run:
           name: create virtual environment
-          command: |
-            virtualenv myvirtualenv --python=python3
-      -run:
+          command: virtualenv myvirtualenv --python=python3
+      - run:
         name: activate virtual environment
         command: source /home/circleci/repo/myvirtualenv/bin/activate
 
