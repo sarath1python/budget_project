@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4256e017-98a1-4f8d-8045-e3434f8a9690" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.circleci/config.yml" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="25" column="51" lean-forward="false" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+            <state relative-caret-position="123">
+              <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -64,8 +64,8 @@
         <option value="$PROJECT_DIR$/budget/alchemy_fields.py" />
         <option value="$PROJECT_DIR$/budgetproject/settings.py" />
         <option value="$PROJECT_DIR$/budget/orm.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -561,18 +561,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="25" column="51" lean-forward="false" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding>
+            <marker date="1560747870559" expanded="true" signature="12:1404" ph="jobs: &lt;1 key&gt;" />
+            <marker date="1560747870559" expanded="true" signature="20:1404" ph="build: &lt;3 keys&gt;" />
+            <marker date="1560747870559" expanded="true" signature="31:76" ph="docker: &lt;1 item&gt;" />
+            <marker date="1560747870559" expanded="true" signature="55:76" ph="circleci/…thon:3.6.7" />
+            <marker date="1560747870559" expanded="true" signature="322:328" ph="~/repo" />
+            <marker date="1560747870559" expanded="true" signature="334:1404" ph="steps: &lt;7 items&gt;" />
+            <marker date="1560747870559" expanded="true" signature="349:357" ph="checkout" />
+            <marker date="1560747870559" expanded="true" signature="407:608" ph="restore_cache: &lt;1 key&gt;" />
+            <marker date="1560747870559" expanded="true" signature="432:608" ph="keys: &lt;2 items&gt;" />
+            <marker date="1560747870559" expanded="true" signature="452:501" ph="v1-depend…ts.txt&quot; }}" />
+            <marker date="1560747870559" expanded="true" signature="592:608" ph="v1-dependencies-" />
+            <marker date="1560747870559" expanded="true" signature="617:673" ph="run: &lt;1 key&gt;" />
+            <marker date="1560747870559" expanded="true" signature="641:673" ph="pip insta…pip --user" />
+            <marker date="1560747870559" expanded="true" signature="682:853" ph="run: &lt;2 keys&gt;" />
+            <marker date="1560747870559" expanded="true" signature="703:723" ph="install dependencies" />
+            <marker date="1560747870559" expanded="true" signature="743:853" ph="python3 -…ments.txt&#10;" />
+            <marker date="1560747870559" expanded="true" signature="863:977" ph="save_cache: &lt;2 keys&gt;" />
+            <marker date="1560747870559" expanded="true" signature="885:912" ph="paths: &lt;1 item&gt;" />
+            <marker date="1560747870559" expanded="true" signature="906:912" ph="./venv" />
+            <marker date="1560747870559" expanded="true" signature="928:977" ph="v1-depend…ts.txt&quot; }}" />
+            <marker date="1560747870559" expanded="true" signature="1196:1313" ph="run: &lt;2 keys&gt;" />
+            <marker date="1560747870559" expanded="true" signature="1217:1226" ph="run tests" />
+            <marker date="1560747870559" expanded="true" signature="1246:1313" ph=". venv/bi…e.py test&#10;" />
+            <marker date="1560747870559" expanded="true" signature="1323:1404" ph="store_artifacts: &lt;2 keys&gt;" />
+            <marker date="1560747870559" expanded="true" signature="1356:1368" ph="test-reports" />
+            <marker date="1560747870559" expanded="true" signature="1392:1404" ph="test-reports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
           <folding />
         </state>
       </provider>
