@@ -6,7 +6,7 @@ blinker==1.4
 cffi==1.12.3
 Click==7.0
 cryptography==2.7
-Django==2.1.2
+Django==2.2.10
 django-elasticsearch-dsl==0.5.1
 djangorestframework==3.9.4
 elasticsearch==6.3.1
