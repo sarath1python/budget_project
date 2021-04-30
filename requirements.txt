@@ -55,7 +55,7 @@ sshtunnel==0.1.4
 testtools==2.3.0
 traceback2==1.4.0
 unittest2==1.1.0
-urllib3==1.25.2
+urllib3==1.25.8
 webencodings==0.5.1
 Werkzeug==0.15.4
 WTForms==2.1
