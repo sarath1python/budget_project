@@ -31,7 +31,7 @@ ipaddress==1.0.22
 itsdangerous==1.1.0
 Jinja2==2.10.1
 linecache2==1.0.0
-Mako==1.0.12
+Mako==1.2.2
 MarkupSafe==1.1.1
 paramiko==2.4.2
 passlib==1.7.1
